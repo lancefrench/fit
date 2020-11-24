@@ -8,7 +8,7 @@
 
 fit is a [Go](http://www.golang.org/) package that implements decoding and
 encoding of the [Flexible and Interoperable Data Transfer (FIT)
-Protocol](http://www.thisisant.com/resources/fit). Fit is a "compact binary
+Protocol](https://developer.garmin.com/fit/overview/). Fit is a "compact binary
 format designed for storing and sharing data from sport, fitness and health
 devices". Fit files are created by newer GPS enabled Garmin sport watches and
 cycling computers, such as the Forerunner/Edge/Fenix series.
@@ -23,12 +23,13 @@ _Note:_ 0.6.0 contains a breaking change, see #46.
 
 ### FIT SDK Version Support
 
-**Current supported FIT SDK version:** 21.38
+**Current supported FIT SDK version:** 21.40
 
 **Warning:** Data Developers Fields are not yet supported (#21).
 
 Older supported profile versions:
 
+* 21.38
 * 21.32
 * 20.90
 * 20.43

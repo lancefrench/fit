@@ -1,6 +1,6 @@
 // Code generated using the program found in 'cmd/fitgen/main.go'. DO NOT EDIT.
 
-// SDK Version: 21.38
+// SDK Version: 21.40
 
 package fit
 
@@ -1595,6 +1595,7 @@ const (
 	GarminProductFr620Taiwan                GarminProduct = 2173
 	GarminProductFr220Taiwan                GarminProduct = 2174
 	GarminProductTruswing                   GarminProduct = 2175
+	GarminProductD2airvenu                  GarminProduct = 2187
 	GarminProductFenix3China                GarminProduct = 2188
 	GarminProductFenix3Twn                  GarminProduct = 2189
 	GarminProductVariaHeadlight             GarminProduct = 2192
@@ -1768,15 +1769,20 @@ const (
 	GarminProductFenix6xAsia                GarminProduct = 3516
 	GarminProductEdge130Plus                GarminProduct = 3558
 	GarminProductEdge1030Plus               GarminProduct = 3570
+	GarminProductFr745                      GarminProduct = 3589
+	GarminProductVenusq                     GarminProduct = 3600
 	GarminProductMarqAdventurer             GarminProduct = 3624
 	GarminProductMarqAdventurerAsia         GarminProduct = 3648
 	GarminProductSwim2Apac                  GarminProduct = 3639
 	GarminProductVenuDaimlerAsia            GarminProduct = 3737
 	GarminProductMarqGolfer                 GarminProduct = 3739
 	GarminProductVenuDaimler                GarminProduct = 3740
+	GarminProductFr745Asia                  GarminProduct = 3794
 	GarminProductEdge1030PlusAsia           GarminProduct = 3812
 	GarminProductEdge130PlusAsia            GarminProduct = 3813
+	GarminProductVenusqAsia                 GarminProduct = 3837
 	GarminProductMarqGolferAsia             GarminProduct = 3850
+	GarminProductVenu2plus                  GarminProduct = 3851
 	GarminProductSdm4                       GarminProduct = 10007 // SDM4 footpod
 	GarminProductEdgeRemote                 GarminProduct = 10014
 	GarminProductTacxTrainingAppWin         GarminProduct = 20533
@@ -3421,6 +3427,7 @@ const (
 	SportJumpmaster            Sport = 46
 	SportBoxing                Sport = 47
 	SportFloorClimbing         Sport = 48
+	SportDiving                Sport = 53
 	SportAll                   Sport = 254 // All is for goals only to include all sports.
 	SportInvalid               Sport = 0xFF
 )
