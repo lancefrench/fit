@@ -1,6 +1,6 @@
 // Code generated using the program found in 'cmd/fitgen/main.go'. DO NOT EDIT.
 
-// SDK Version: 21.38
+// SDK Version: 21.40
 
 package fit
 
@@ -3523,7 +3523,7 @@ func (x *AviationAttitudeMsg) GetPitchScaled() []float64 {
 	}
 	s := make([]float64, len(x.Pitch))
 	for i, v := range x.Pitch {
-		s[i] = float64(v) / 10430.38
+		s[i] = float64(v) / 10430.379999999999
 	}
 	return s
 }
@@ -3537,7 +3537,7 @@ func (x *AviationAttitudeMsg) GetRollScaled() []float64 {
 	}
 	s := make([]float64, len(x.Roll))
 	for i, v := range x.Roll {
-		s[i] = float64(v) / 10430.38
+		s[i] = float64(v) / 10430.379999999999
 	}
 	return s
 }
@@ -3593,7 +3593,7 @@ func (x *AviationAttitudeMsg) GetTrackScaled() []float64 {
 	}
 	s := make([]float64, len(x.Track))
 	for i, v := range x.Track {
-		s[i] = float64(v) / 10430.38
+		s[i] = float64(v) / 10430.379999999999
 	}
 	return s
 }
